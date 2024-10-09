@@ -18,5 +18,12 @@ We provide some test results on localization and pose estimation on RBMOP.
 
 2. The Linemod dataset and GenMOP dataset we used are also accompanied by relevant links and results.<br>
    Linemod：https://drive.google.com/file/d/1eHG5xWdvNaMPfe_njuDAYWzkWJuJ9PCf/view?usp=drive_link<br>
-   GenMOP：https://drive.google.com/open?id=1w4Zwix4Bw_IxXGkntCeNntUOtAfSeBbY&usp=drive_copy
+   GenMOP：https://drive.google.com/open?id=1w4Zwix4Bw_IxXGkntCeNntUOtAfSeBbY&usp=drive_copy<br>
+The results highlight the differences and are shown in the figures below:
+![fig5](https://github.com/user-attachments/assets/62f32391-0f70-464f-bced-72e5a638cad2)
+![fig6](https://github.com/user-attachments/assets/fe268b5d-5ae4-47cc-ae10-2d31089a6ced)
+
+
+
+
 
