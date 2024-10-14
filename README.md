@@ -8,7 +8,7 @@
 （4） **Comprehensive experiments demonstrate that the proposed method achieves high performance across various datasets.** Extensive ablation studies confirm the effectiveness of key components of the proposed network.
 
 
-**DOWNLOAD**
+**Train and test dataset DOWNLOAD**
 
 1.We first publish the datasets we use and release our new background complexity dataset RBMOP https://drive.google.com/file/d/1lhKx8gnOLU_LeCAeIU8YCHhj7_Iqpyuo/view?usp=drive_link.
 ![fig4](https://github.com/user-attachments/assets/a5f85d87-66da-4fdf-a431-7f45fa7b91a5)
@@ -22,6 +22,24 @@ We provide some test results on localization and pose estimation on RBMOP.
 The results highlight the differences and are shown in the figures below:
 ![fig5](https://github.com/user-attachments/assets/62f32391-0f70-464f-bced-72e5a638cad2)
 ![fig6](https://github.com/user-attachments/assets/fe268b5d-5ae4-47cc-ae10-2d31089a6ced)
+
+4. Open-world detector<br>
+Download model weights of Segmenting Anything:<br>
+     python download_sam.py
+
+   Download model weights of ViT pre-trained by DINOv2:<br>
+      python download_dinov2.py
+   
+   Evaluation detector<br>
+      python run_evaluation.py dataset_name=dataset
+
+5. Train the selector<br>
+   python train_model.py --cfg configs/selector/selector_train.yaml<br>
+
+7. Train the refiner<br>
+   python train_model.py --cfg configs/refiner/refiner_train.yaml<br>
+
+   
 
 
 
